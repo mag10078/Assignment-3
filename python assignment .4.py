@@ -46,8 +46,7 @@ for loop_variable in range(10):
 
 #Question 4
 
-num=1
-while num<200:
-    if num%5 == 2 and num%6 == 3 and num%7 == 2:
-        print("The number is: " + str(num))
-    num = num + 1
+for i in range(200):
+    if i % 5 == 2 and i % 6 == 3 and i % 7 == 2:
+        print("Answer:",i)
+
